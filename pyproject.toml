@@ -1,0 +1,9 @@
+[project]
+name = "grocery-forecasting-task"
+version = "1.0.0"
+description = "RL task: Grocery demand forecasting with rolling evaluation, leakage trap, and subprocess isolation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.67.0",
+]
